@@ -4,12 +4,40 @@
 }
 
 body{
-    background-color: lightslategray;
+    background-color: rgba(90, 168, 240, 0.70);
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 650px;
     margin: auto;
+    padding: 15px 15px 30px 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-size: 2.5em;
+    color: rgb(40, 130, 210);
+}
+
+h2{
+    font-size: 1.8em;
+    color: rgb(40, 130, 210);
+}
+p{
+    text-align: justify;
+}
+
+.img-aolado{
+    float: right;
+}
+
+.video{
+    padding: 20px 20px 52% 20px;
+    position: relative;
+}
+
+iframe{
+    position: absolute;
+    width: 93%;
 }
